@@ -15,7 +15,7 @@ function Directory(props) {
     };
 
     return (
-        <FlatList 
+        <FlatList
             data={props.campsites}
             renderItem={renderDirectoryItem}
             keyExtractor={item => item.id.toString()}
