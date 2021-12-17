@@ -5454,7 +5454,7 @@ react-native-web@0.17.1:
     normalize-css-color "^1.0.2"
     prop-types "^15.6.0"
 
-react-native@0.66.4:
+"react-native@react-native@https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz":
   version "0.66.4"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.66.4.tgz#bf89a5fb18bd23046d889fb4de4ea2822a4d7805"
   integrity sha512-9vx5dlSfQlKbbDtr8+xMon6qsmSu7jvjdXWZpEKh3XVKpUidbbODv7048gwVKX8YAel1egeR7hN8vzSeI6ssTw==
@@ -5490,6 +5490,11 @@ react-native@0.66.4:
     use-subscription "^1.0.0"
     whatwg-fetch "^3.0.0"
     ws "^6.1.4"
+
+react-navigation-drawer@^2.7.1:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/react-navigation-drawer/-/react-navigation-drawer-2.7.1.tgz#b025be11f612e8215f15f9f605851d281606fe82"
+  integrity sha512-W36XDl+Ts5uGNr6Ryt1xGrQ5JTeddPmvR31bNX7o6Oo7OsdPZ3b1+oMDoRClGca0d6Ggo7btIqiWUsUshm+p/g==
 
 react-navigation-stack@^1.10.3:
   version "1.10.3"
