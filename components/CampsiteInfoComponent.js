@@ -83,7 +83,7 @@ function RenderCampsite(props) {
                         />
                         <Icon 
                         name='pencil'
-                            color='5637DD'
+                            color='#5637DD'
                             raised
                             reverse
                             onPress={() => props.onShowModal}
@@ -105,6 +105,7 @@ function RenderComments({comments}) {
                 <Text style={{fontSize: 14}}>{item.text}</Text>
                 <Rating 
                     readonly
+                    startingValue={item.rating}
                     style={{alignItems: 'flex-start', paddingVertical: '5%' }}
                     imageSize={10}>{item.rating} Stars</Rating>
                 <Text style={{fontSize: 12}}>{`-- ${item.author}, ${item.date}`}</Text>
